@@ -22,8 +22,8 @@ With this library installed somewhere heat can find it:
 - Replace it with `authsecretkey`
 - At the bottom, add:
 
-    [filter:authsecretkey]
-    paste.filter_factory = heat_secretkey.auth_plugin:filter_factory
+        [filter:authsecretkey]
+        paste.filter_factory = heat_secretkey.auth_plugin:filter_factory
 
 - Restart `heat-api`.
 
